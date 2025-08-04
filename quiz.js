@@ -1,6 +1,6 @@
 function checkAnswer () {
   const correctAnswer = '4';
-  const selectedOption = document.querySelector('input[name="checked"]: checked');
+  const selectedOption = document.querySelector('input[name="quiz"]: checked');
 
   if (!selectedOption) return;
   const userAnswer = selectedOption.value;
